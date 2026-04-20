@@ -8,7 +8,7 @@ int main(void) {
     
     for ( int i =0; i < N; i++) {
         char c;
-        scanf("%c", &c);
+        scanf(" %c", &c);
         
         if (c >= 'a' && c <= 'z') {
             cntLower++;
