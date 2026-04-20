@@ -6,9 +6,10 @@ int main(void) {
     
     int cntLower = 0, cntDigit = 0, maxLower = 0, maxDigit =0;
 
-    getchar();
+    
     for ( int i =0; i < N; i++) {
         char c;
+        getchar();
         scanf("%c", &c);
         
         if (c >= 'a' && c <= 'z') {
