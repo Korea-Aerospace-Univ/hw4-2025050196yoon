@@ -5,10 +5,11 @@ int main(void) {
     scanf("%d\n", &N);
     
     int cntLower = 0, cntDigit = 0, maxLower = 0, maxDigit =0;
-    
+
+    getchar();
     for ( int i =0; i < N; i++) {
         char c;
-        scanf(" %c", &c);
+        scanf("%c", &c);
         
         if (c >= 'a' && c <= 'z') {
             cntLower++;
